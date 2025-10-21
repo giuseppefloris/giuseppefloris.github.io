@@ -1,7 +1,7 @@
 ---
 title: "ModSec-AdvLearn: Countering Adversarial SQL Injections With Robust Machine Learning"
 collection: publications
-category: muscripts
+category: manuscripts
 permalink: /publication/2025-modsec-advlearn
 excerpt: 'This paper introduces ModSec-advLearn, a robust machine learning system to enhance robustness and detection of adversarial SQL Injection and SQL Injection attacks against Web Application Firewalls '
 date: 2025-01-01
