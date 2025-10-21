@@ -7,6 +7,5 @@ excerpt: 'This paper introduces ModSec-advLearn, a robust machine learning syste
 date: 2025-01-01
 venue: ' IEEE Transactions on Information Forensics and Security Vol. 20, pp. 6693-6705'
 paperurl: 'https://dx.doi.org/10.1109/tifs.2025.3583234'
-citation: 'Floris, G; Scano, C; Montaruli, B; Demetrio, L; Valenza, A; Compagna, L;
-Ariu, D; Piras, L; Balzarotti, D; Biggio, B. ModSec-AdvLearn: Countering Adversarial SQL Injections With Robust Machine Learning. (2025). <i> IEEE TRANSACTIONS ON INFORMATION FORENSICS AND SECURITY (TIFS) </i>, VOL. 20, pp. 6693-6705, 2025'
+citation: 'Floris, G; Scano, C; Montaruli, B; Demetrio, L; Valenza, A; Compagna, L; Ariu, D; Piras, L; Balzarotti, D; Biggio, B. ModSec-AdvLearn: Countering Adversarial SQL Injections With Robust Machine Learning. (2025). <i> IEEE TRANSACTIONS ON INFORMATION FORENSICS AND SECURITY (TIFS) </i>, VOL. 20, pp. 6693-6705, 2025'
 ---
