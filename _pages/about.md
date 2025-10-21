@@ -27,4 +27,6 @@ Education
 * **M.S.** in Computer Engineering, Cybersecurity  & Artificial Intelligence, University of Cagliari, 28th September 2023 (with honors).
   * Thesis: Hyperparameter Optimization for Fast Minimum-norm Attacks. Supervisor: Prof. Battista Biggio
 * **B.S.** in Electrical, Electronic, and Computer Engineering, University of Cagliari.
-  * [Thesis]: Mitigation of vulnerabilities in the evolution of open source software development
+  * Thesis: Mitigation of vulnerabilities in the evolution of open source software development
+
+---
