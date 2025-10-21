@@ -10,9 +10,9 @@ redirect_from:
 I am a third-year PhD student in Computer Engineering at the [sAIfer lab](https://www.saiferlab.ai/), in the Department of Electrical and Electronic Engineering from the University of Cagliari (UNICA), Italy. My research, from a broad perspective, focuses on Adversarial Machine Learning and its applications in the cybersecurity domain.
 ### Research Interest
 My research focuses on developing robust machine learning systems in the cybersecurity domain. I am particularly interested in:
-*Machine Learning applied to Cybersecurity
-*Privacy-Preserving ML
-*Machine Learning Security
+  * Machine Learning applied to Cybersecurity
+  * Privacy-Preserving ML
+  * Machine Learning Security
 
 ### Short Bio 
 Giuseppe Floris is a PhD student in Computer Engineering from the University of Cagliari (UNICA), Italy, where he focuses on AI security. 
