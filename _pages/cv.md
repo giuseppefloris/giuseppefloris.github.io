@@ -14,7 +14,7 @@ Education
 * Ph.D student in Computer Engineering, University of Cagliari.
   * Focus: Machine Learning Security 
   * Supervised by Prof. Battista Biggio
-  * Member of SAIfer Lab 
+  * Member of sAIfer Lab 
 * M.S. Computer Engineering, Cybersecurity, and Artificial Intelligence, University of Cagliari, September 28th, 2023 (with honors).
   * Thesis: Hyperparameter Optimization for Fast Minimum-norm Attacks. Supervisor: Prof. Battista Biggio
 * B.S. in Electrical, Electronic and Computer Engineering, University of Cagliari.
