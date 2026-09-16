@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Giuseppe Floris"
 title_separator          : "-"
 name                     : &name "Giuseppe Floris"
-description              : &description "PhD in Computer Engineering @ University of Cagliari"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "PhD student working on machine learning security, privacy, and applications of ML to cybersecurity."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://giuseppefloris.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Giuseppe Floris"
   pronouns         : # example: "she/her"  
-  bio              : "PhD student | AI security"
+  bio              : "<strong>PhD student in Electronics and Computer Engineering</strong><br><span>Research focus: AI security and privacy.</span>"
   location         : "Cagliari, Italy"
   employer         : "University of Cagliari"
   uri              : "https://www.saiferlab.ai/people/giuseppefloris"
@@ -49,6 +49,7 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "giuseppefloris"
+  linkedin         : "giuseppe-floris-b03866210"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 

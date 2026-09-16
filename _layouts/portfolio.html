@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<main id="main" class="portfolio-shell" role="main">
+  <article class="portfolio-page" itemscope itemtype="https://schema.org/Person">
+    <meta itemprop="name" content="{{ site.author.name }}">
+    <div class="page__content" itemprop="description">
+      {{ content }}
+    </div>
+  </article>
+</main>
+
+<script src="{{ '/assets/js/portfolio.js' | relative_url }}" defer></script>
