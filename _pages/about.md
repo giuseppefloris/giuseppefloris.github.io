@@ -14,7 +14,16 @@ redirect_from:
     <p class="profile-eyebrow">AI security · Machine learning</p>
     <h1>Giuseppe Floris</h1>
     <p class="profile-role">PhD Student in Electronics and Computer Engineering</p>
-    <p class="profile-summary">I study security and privacy risks in machine learning systems, with a focus on adversarial robustness, privacy attacks and defenses, and applications of machine learning to cybersecurity.</p>
+    <h2 class="profile-about-heading">About Me</h2>
+    <p class="profile-summary">I am a PhD student in Electronics and Computer Engineering at the University of Cagliari. My research focuses on machine learning security and privacy, and on applications of machine learning to cybersecurity. In particular, I work on adversarial robustness and privacy attacks and defenses. I am interested in evaluating security and privacy risks in machine learning systems and developing methods to mitigate them.</p>
+    <ul class="profile-tags profile-tags--intro" aria-label="Research topics">
+      <li><button class="research-topic" type="button" data-topic="adversarial-robustness" aria-pressed="false" aria-controls="selected-work-grid">Adversarial robustness</button></li>
+      <li><span class="research-topic research-topic--static">Privacy attacks</span></li>
+      <li><span class="research-topic research-topic--static">Differential privacy</span></li>
+      <li><button class="research-topic" type="button" data-topic="ml-cybersecurity" aria-pressed="false" aria-controls="selected-work-grid">ML for cybersecurity</button></li>
+      <li><span class="research-topic research-topic--static">LLM security</span></li>
+      <li><button class="research-topic" type="button" data-topic="hyperparameter-optimization" aria-pressed="false" aria-controls="selected-work-grid">Hyperparameter optimization</button></li>
+    </ul>
     <nav class="profile-links" aria-label="Profile links">
       <a class="profile-link--primary" href="/files/cv-giuseppe-floris.pdf">Download CV</a>
       <a href="/publications/">Publications</a>
@@ -25,21 +34,6 @@ redirect_from:
   </div>
   <img class="profile-photo" src="/images/profile.png" alt="Portrait of Giuseppe Floris">
 </header>
-
-<section class="profile-section" aria-labelledby="focus-heading">
-  <h2 id="focus-heading">Research profile</h2>
-  <div class="profile-focus-grid">
-    <p>I am a PhD student at the University of Cagliari and a member of the sAIfer Lab. My work combines machine learning security and privacy with practical cybersecurity problems, including web attack detection and privacy risks in large language model pipelines. I am interested in evaluating security and privacy risks in machine learning systems and developing methods to mitigate them.</p>
-    <ul class="profile-tags" aria-label="Research topics">
-      <li><button class="research-topic" type="button" data-topic="adversarial-robustness" aria-pressed="false" aria-controls="selected-work-grid">Adversarial robustness</button></li>
-      <li><span class="research-topic research-topic--static">Privacy attacks</span></li>
-      <li><span class="research-topic research-topic--static">Differential privacy</span></li>
-      <li><button class="research-topic" type="button" data-topic="ml-cybersecurity" aria-pressed="false" aria-controls="selected-work-grid">ML for cybersecurity</button></li>
-      <li><span class="research-topic research-topic--static">LLM security</span></li>
-      <li><button class="research-topic" type="button" data-topic="hyperparameter-optimization" aria-pressed="false" aria-controls="selected-work-grid">Hyperparameter optimization</button></li>
-    </ul>
-  </div>
-</section>
 
 <section class="profile-section selected-work" aria-labelledby="selected-work-heading">
   <div class="section-heading-row">

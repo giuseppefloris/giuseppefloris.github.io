@@ -63,10 +63,19 @@
 }
 
 .profile-role {
-  margin: 0.7rem 0 1.2rem !important;
+  margin: 0.7rem 0 1.5rem !important;
   color: var(--portfolio-muted);
   font-size: clamp(1rem, 2vw, 1.18rem) !important;
   font-weight: 600;
+}
+
+.profile-about-heading {
+  margin: 0 0 0.65rem !important;
+  padding: 0;
+  border-bottom: 0;
+  color: var(--global-text-color);
+  font-size: 1.05rem !important;
+  letter-spacing: -0.015em;
 }
 
 .profile-summary {
@@ -75,6 +84,10 @@
   color: var(--portfolio-muted);
   font-size: 1rem !important;
   line-height: 1.7;
+}
+
+.profile-tags--intro {
+  margin-top: 1.25rem;
 }
 
 .profile-links {
