@@ -12,7 +12,7 @@ redirect_from:
 
 <header class="profile-intro">
   <div>
-    <p class="profile-eyebrow">AI security and privacy</p>
+    <p class="profile-eyebrow">AI Security · Privacy · AI for Cybersecurity</p>
     <h1>Giuseppe Floris</h1>
     <p class="profile-role">PhD Student · University of Cagliari</p>
     <h2 class="profile-about-heading">About Me</h2>
