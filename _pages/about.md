@@ -130,7 +130,9 @@ redirect_from:
         <span>PhD Student · University of Cagliari</span>
         <time>2023 – 2026</time>
       </summary>
-      <p>DRIEI PhD Program. Supervisor: Prof. Battista Biggio; co-supervisor: Dr. Maura Pintor.</p>
+      <p>DRIEI PhD Program.</p>
+      <p><strong>Supervisor:</strong> Prof. Battista Biggio.</p>
+      <p><strong>Co-supervisor:</strong> Dr. Maura Pintor.</p>
     </details>
   </div>
 </section>

@@ -46,7 +46,8 @@ PhD student in Electronics and Computer Engineering at the University of Cagliar
             <div>
               <h3>Visiting PhD</h3>
               <p class="cv-entry__place">CISPA Helmholtz Center for Information Security · SprintML Lab</p>
-              <p>Supervisor: Dr. Franziska Boenisch. Privacy attacks and defenses in LLMs and their pipeline components, including tokenizers.</p>
+              <p><strong>Supervisor:</strong> Dr. Franziska Boenisch.</p>
+              <p>Privacy attacks and defenses in LLMs and their pipeline components, including tokenizers.</p>
             </div>
           </article>
           <article class="cv-entry">
@@ -78,7 +79,8 @@ PhD student in Electronics and Computer Engineering at the University of Cagliar
         <div>
           <h3>PhD in Electronics and Computer Engineering</h3>
           <p class="cv-entry__place">University of Cagliari · DRIEI PhD Program</p>
-          <p>Supervisor: Prof. Battista Biggio · Co-supervisor: Dr. Maura Pintor.</p>
+          <p><strong>Supervisor:</strong> Prof. Battista Biggio.</p>
+          <p><strong>Co-supervisor:</strong> Dr. Maura Pintor.</p>
         </div>
       </article>
       <article class="cv-entry">

@@ -20,7 +20,7 @@ This revision keeps the existing GitHub Pages/Jekyll setup, public URLs, English
 5. Inspect `https://giuseppefloris.github.io/`, run the live test, and use **Request indexing** if available. Inspect the publications list and paper pages as needed.
 6. Monitor Page indexing and Performance. Public search results alone are not a definitive check of Google's indexing state.
 
-There is no completed Search Console submission or guaranteed Google index status in this revision. Requesting a crawl does not guarantee indexing, a particular ranking, or immediate updates. Windsor.ai is an optional way to read Search Console reporting; it is not required for ownership verification or requesting indexing.
+The public verification token in `_config.yml` belongs to the Google account authorized by the site owner for this property. Source changes alone do not certify Search Console verification or Google's index status; those must be checked in Search Console after deployment. Requesting a crawl does not guarantee indexing, a particular ranking, or immediate updates. Windsor.ai is an optional way to read Search Console reporting; it is not required for ownership verification or requesting indexing.
 
 ## Validation performed
 
