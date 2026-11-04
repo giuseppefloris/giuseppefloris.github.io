@@ -12,28 +12,28 @@ redirect_from:
 
 <header class="profile-intro">
   <div>
-    <p class="profile-eyebrow">AI security · Machine learning</p>
+    <p class="profile-eyebrow">AI security and privacy</p>
     <h1>Giuseppe Floris</h1>
     <p class="profile-role">PhD Student · University of Cagliari</p>
-    <h2 class="profile-about-heading">Machine learning security &amp; privacy</h2>
-    <p class="profile-lead">I study how machine learning systems can be attacked, and how to make them more secure and private.</p>
+    <h2 class="profile-about-heading">About Me</h2>
     <p class="profile-summary">I am a member of <a href="https://www.saiferlab.ai/people/giuseppefloris">sAIferLab</a> and a PhD student in Electronics and Computer Engineering at the University of Cagliari. My research focuses on machine learning security and privacy, and on applications of machine learning to cybersecurity. In particular, I work on adversarial robustness and privacy attacks and defenses. I am interested in evaluating security and privacy risks in machine learning systems and developing methods to mitigate them.</p>
-    <ul class="profile-tags profile-tags--intro" aria-label="Research topics">
+    <h2 id="research-topics-heading" class="profile-topics-heading">Research Topics</h2>
+    <ul class="profile-tags" aria-labelledby="research-topics-heading">
       <li><button class="research-topic" type="button" data-topic="adversarial-robustness" aria-pressed="false" aria-controls="selected-work-grid">Adversarial robustness</button></li>
       <li><button class="research-topic" type="button" data-topic="privacy-attacks" aria-pressed="false" aria-controls="selected-work-grid">Privacy attacks</button></li>
-      <li><span class="research-topic research-topic--static">Differential privacy</span></li>
+      <li><button class="research-topic" type="button" data-topic="differential-privacy" aria-pressed="false" aria-controls="selected-work-grid">Differential privacy</button></li>
       <li><button class="research-topic" type="button" data-topic="ml-cybersecurity" aria-pressed="false" aria-controls="selected-work-grid">ML for cybersecurity</button></li>
       <li><button class="research-topic" type="button" data-topic="llm-security" aria-pressed="false" aria-controls="selected-work-grid">LLM security</button></li>
       <li><button class="research-topic" type="button" data-topic="hyperparameter-optimization" aria-pressed="false" aria-controls="selected-work-grid">Hyperparameter optimization</button></li>
     </ul>
     <nav class="profile-links" aria-label="Profile links">
-      <a class="profile-link--primary" href="/files/cv-giuseppe-floris.pdf">Download CV</a>
-      <a href="/publications/">Publications</a>
-      <a href="{{ site.author.googlescholar }}">Google Scholar</a>
-      <a href="{{ site.author.orcid }}">ORCID</a>
-      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
-      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">LinkedIn</a>
-      <a href="mailto:{{ site.author.email }}">Email</a>
+      <a class="profile-link--primary" href="/files/cv-giuseppe-floris.pdf"><i class="fas fa-file-pdf" aria-hidden="true"></i> Download CV</a>
+      <a href="/publications/"><i class="fas fa-book-open" aria-hidden="true"></i> Publications</a>
+      <a href="{{ site.author.googlescholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
+      <a href="{{ site.author.orcid }}"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a>
+      <a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+      <a href="mailto:{{ site.author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a>
     </nav>
   </div>
   <img class="profile-photo" src="/images/profile.webp" width="180" height="180" alt="Portrait of Giuseppe Floris" decoding="async" fetchpriority="high">
@@ -71,7 +71,7 @@ redirect_from:
       <a class="work-card__action" href="/publication/2025-ho-fmn">View publication <span aria-hidden="true">→</span></a>
     </article>
 
-    <article class="work-card" data-topics="privacy-attacks llm-security" data-featured="true">
+    <article class="work-card" data-topics="privacy-attacks differential-privacy llm-security" data-featured="true">
       <p class="work-card__type">Current research</p>
       <h3>Privacy in LLM pipelines</h3>
       <p>Privacy attacks and defenses in large language models and pipeline components, including tokenizers.</p>
