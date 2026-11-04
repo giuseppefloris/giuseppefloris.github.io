@@ -46,7 +46,7 @@ PhD student in Electronics and Computer Engineering at the University of Cagliar
             <div>
               <h3>Visiting PhD</h3>
               <p class="cv-entry__place">CISPA Helmholtz Center for Information Security · SprintML Lab</p>
-              <p><strong>Supervisor:</strong> Dr. Franziska Boenisch.</p>
+              <p><strong>Supervisor:</strong> Prof. Franziska Boenisch.</p>
               <p>Privacy attacks and defenses in LLMs and their pipeline components, including tokenizers.</p>
             </div>
           </article>
