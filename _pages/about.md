@@ -116,6 +116,7 @@ redirect_from:
         <time>Nov 2025 – Apr 2026</time>
       </summary>
       <p>SprintML Lab. Research on privacy attacks and defenses in LLMs and their pipeline components, including tokenizers.</p>
+      <p><strong>Supervisor:</strong> Franziska Boenisch.</p>
     </details>
     <details class="experience-card">
       <summary>
