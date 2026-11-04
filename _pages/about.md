@@ -17,7 +17,7 @@ redirect_from:
     <p class="profile-role">PhD Student · University of Cagliari</p>
     <h2 class="profile-about-heading">Machine learning security &amp; privacy</h2>
     <p class="profile-lead">I study how machine learning systems can be attacked, and how to make them more secure and private.</p>
-    <p class="profile-summary">I am a PhD student in Electronics and Computer Engineering at the University of Cagliari, working on adversarial robustness, privacy attacks and defenses, and machine learning for cybersecurity. My current research explores privacy in large language models and their pipeline components, including tokenizers.</p>
+    <p class="profile-summary">I am a member of <a href="https://www.saiferlab.ai/people/giuseppefloris">sAIferLab</a> and a PhD student in Electronics and Computer Engineering at the University of Cagliari. My research focuses on machine learning security and privacy, and on applications of machine learning to cybersecurity. In particular, I work on adversarial robustness and privacy attacks and defenses. I am interested in evaluating security and privacy risks in machine learning systems and developing methods to mitigate them.</p>
     <ul class="profile-tags profile-tags--intro" aria-label="Research topics">
       <li><button class="research-topic" type="button" data-topic="adversarial-robustness" aria-pressed="false" aria-controls="selected-work-grid">Adversarial robustness</button></li>
       <li><button class="research-topic" type="button" data-topic="privacy-attacks" aria-pressed="false" aria-controls="selected-work-grid">Privacy attacks</button></li>
