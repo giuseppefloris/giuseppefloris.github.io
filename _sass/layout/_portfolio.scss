@@ -87,6 +87,15 @@
   letter-spacing: -0.015em;
 }
 
+.profile-intro .profile-topics-heading {
+  margin: 1.5rem 0 0.75rem;
+  padding: 0;
+  border-bottom: 0;
+  color: var(--global-text-color);
+  font-size: 1.05rem;
+  letter-spacing: -0.015em;
+}
+
 .profile-summary {
   max-width: 44rem;
   margin: 0 !important;
@@ -126,6 +135,8 @@
 
 .profile-links a {
   display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
   align-items: center;
   min-height: 2rem;
   color: var(--portfolio-accent) !important;
