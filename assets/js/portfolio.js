@@ -2,7 +2,7 @@
   "use strict";
 
   function initWorkFilters() {
-    var buttons = Array.prototype.slice.call(document.querySelectorAll(".research-topic"));
+    var buttons = Array.prototype.slice.call(document.querySelectorAll("button.research-topic[data-topic]"));
     var cards = Array.prototype.slice.call(document.querySelectorAll(".work-card"));
     var reset = document.getElementById("work-filter-reset");
     var status = document.getElementById("work-filter-status");

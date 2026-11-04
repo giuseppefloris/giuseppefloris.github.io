@@ -6,7 +6,7 @@
 */
 
 var $nav = $('#site-nav');
-var $btn = $('#site-nav button');
+var $btn = $('#site-nav > button');
 var $vlinks = $('#site-nav .visible-links');
 var $vlinks_persist_tail = $vlinks.children("*.persist.tail");
 var $hlinks = $('#site-nav .hidden-links');
@@ -15,7 +15,7 @@ var breaks = [];
 
 function updateNav() {
 
-  var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
+  var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.outerWidth(true) - 16;
 
   // The visible list is overflowing the nav
   if ($vlinks.width() > availableSpace) {
@@ -27,10 +27,9 @@ function updateNav() {
       // Move item to the hidden list
       $vlinks.children("*:not(.persist)").last().prependTo($hlinks);
 
-      availableSpace = $btn.hasClass("hidden") ? $nav.width() : $nav.width() - $btn.width() - 30;
-
       // Show the dropdown btn
       $btn.removeClass("hidden");
+      availableSpace = $nav.width() - $btn.outerWidth(true) - 16;
     }
 
     // The visible list is not overflowing

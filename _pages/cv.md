@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "CV"
+description: "Giuseppe Floris's academic CV: research experience at the University of Cagliari, CISPA and Pluribus One, education, publications, and technical skills."
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -12,7 +13,7 @@ redirect_from:
 <a class="cv-download" href="{{ base_path }}/files/cv-giuseppe-floris.pdf">Download the complete CV (PDF)</a>
 
 Profile
-======
+------
 PhD student in Electronics and Computer Engineering at the University of Cagliari. My research focuses on machine learning security and privacy, and on applications of machine learning to cybersecurity. In particular, I work on adversarial robustness and privacy attacks and defenses. I am interested in evaluating security and privacy risks in machine learning systems and developing methods to mitigate them.
 
 **Research areas:** Adversarial robustness · Privacy attacks and defenses · Differential privacy · ML for cybersecurity · LLM security · Hyperparameter optimization
@@ -101,17 +102,17 @@ PhD student in Electronics and Computer Engineering at the University of Cagliar
 </div>
 
 Technical Skills
-======
+------
 * **Programming:** Python, including AI/ML and LLM libraries.
 * **Machine learning and AI security:** applications to cybersecurity, hyperparameter optimization, adversarial attacks and robustness, privacy attacks, and differential privacy.
 
 Languages
-======
+------
 * **Italian:** native.
 * **English:** B2.
 
 Publications
-======
+------
 <ul>{% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
