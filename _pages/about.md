@@ -1,8 +1,9 @@
 ---
 layout: portfolio
 permalink: /
-title: "Giuseppe Floris — PhD Student in AI Security"
-excerpt: "PhD student working on machine learning security, privacy, and applications of ML to cybersecurity."
+title: "Giuseppe Floris | AI Security & Privacy"
+description: "Giuseppe Floris, PhD student at the University of Cagliari, researching machine learning security, adversarial robustness, and privacy in AI systems."
+last_modified_at: 2026-11-04
 author_profile: false
 redirect_from:
   - /about/
@@ -13,26 +14,29 @@ redirect_from:
   <div>
     <p class="profile-eyebrow">AI security · Machine learning</p>
     <h1>Giuseppe Floris</h1>
-    <p class="profile-role">PhD Student in Electronics and Computer Engineering</p>
-    <h2 class="profile-about-heading">About Me</h2>
-    <p class="profile-summary">I am a PhD student in Electronics and Computer Engineering at the University of Cagliari. My research focuses on machine learning security and privacy, and on applications of machine learning to cybersecurity. In particular, I work on adversarial robustness and privacy attacks and defenses. I am interested in evaluating security and privacy risks in machine learning systems and developing methods to mitigate them.</p>
+    <p class="profile-role">PhD Student · University of Cagliari</p>
+    <h2 class="profile-about-heading">Machine learning security &amp; privacy</h2>
+    <p class="profile-lead">I study how machine learning systems can be attacked, and how to make them more secure and private.</p>
+    <p class="profile-summary">I am a PhD student in Electronics and Computer Engineering at the University of Cagliari, working on adversarial robustness, privacy attacks and defenses, and machine learning for cybersecurity. My current research explores privacy in large language models and their pipeline components, including tokenizers.</p>
     <ul class="profile-tags profile-tags--intro" aria-label="Research topics">
       <li><button class="research-topic" type="button" data-topic="adversarial-robustness" aria-pressed="false" aria-controls="selected-work-grid">Adversarial robustness</button></li>
-      <li><span class="research-topic research-topic--static">Privacy attacks</span></li>
+      <li><button class="research-topic" type="button" data-topic="privacy-attacks" aria-pressed="false" aria-controls="selected-work-grid">Privacy attacks</button></li>
       <li><span class="research-topic research-topic--static">Differential privacy</span></li>
       <li><button class="research-topic" type="button" data-topic="ml-cybersecurity" aria-pressed="false" aria-controls="selected-work-grid">ML for cybersecurity</button></li>
-      <li><span class="research-topic research-topic--static">LLM security</span></li>
+      <li><button class="research-topic" type="button" data-topic="llm-security" aria-pressed="false" aria-controls="selected-work-grid">LLM security</button></li>
       <li><button class="research-topic" type="button" data-topic="hyperparameter-optimization" aria-pressed="false" aria-controls="selected-work-grid">Hyperparameter optimization</button></li>
     </ul>
     <nav class="profile-links" aria-label="Profile links">
       <a class="profile-link--primary" href="/files/cv-giuseppe-floris.pdf">Download CV</a>
       <a href="/publications/">Publications</a>
+      <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+      <a href="{{ site.author.orcid }}">ORCID</a>
       <a href="https://github.com/{{ site.author.github }}">GitHub</a>
       <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">LinkedIn</a>
       <a href="mailto:{{ site.author.email }}">Email</a>
     </nav>
   </div>
-  <img class="profile-photo" src="/images/profile.png" alt="Portrait of Giuseppe Floris">
+  <img class="profile-photo" src="/images/profile.webp" width="180" height="180" alt="Portrait of Giuseppe Floris" decoding="async" fetchpriority="high">
 </header>
 
 <section class="profile-section selected-work" aria-labelledby="selected-work-heading">
@@ -100,6 +104,7 @@ redirect_from:
     </article>
 
   </div>
+  <p class="profile-section-link"><a href="/publications/">All publications <span aria-hidden="true">→</span></a></p>
 </section>
 
 <section class="profile-section" aria-labelledby="experience-heading">
@@ -111,6 +116,7 @@ redirect_from:
         <time>Nov 2025 – Apr 2026</time>
       </summary>
       <p>SprintML Lab. Research on privacy attacks and defenses in LLMs and their pipeline components, including tokenizers.</p>
+      <p><strong>Supervisor:</strong> Franziska Boenisch.</p>
     </details>
     <details class="experience-card">
       <summary>
@@ -124,7 +130,9 @@ redirect_from:
         <span>PhD Student · University of Cagliari</span>
         <time>2023 – 2026</time>
       </summary>
-      <p>DRIEI PhD Program. Supervisor: Prof. Battista Biggio; co-supervisor: Dr. Maura Pintor.</p>
+      <p>DRIEI PhD Program.</p>
+      <p><strong>Supervisor:</strong> Prof. Battista Biggio.</p>
+      <p><strong>Co-supervisor:</strong> Dr. Maura Pintor.</p>
     </details>
   </div>
 </section>

@@ -18,6 +18,15 @@
   --portfolio-muted: color-mix(in srgb, var(--global-text-color) 70%, transparent);
 }
 
+[data-theme="dark"] .portfolio-page .page__content {
+  --portfolio-accent: #5eead4;
+}
+
+[data-theme="dark"] .profile-links .profile-link--primary,
+[data-theme="dark"] .research-topic.is-active {
+  color: #102a28 !important;
+}
+
 .portfolio-page .page__content a {
   text-decoration: none;
 }
@@ -25,9 +34,9 @@
 .profile-intro {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 150px;
-  gap: clamp(2rem, 6vw, 5rem);
-  align-items: center;
+  grid-template-columns: minmax(0, 1fr) 180px;
+  gap: clamp(1.5rem, 4vw, 3rem);
+  align-items: start;
   padding: clamp(2rem, 5vw, 3.25rem);
   overflow: hidden;
   border: 1px solid var(--global-border-color);
@@ -69,7 +78,7 @@
   font-weight: 600;
 }
 
-.profile-about-heading {
+.profile-intro .profile-about-heading {
   margin: 0 0 0.65rem !important;
   padding: 0;
   border-bottom: 0;
@@ -88,6 +97,24 @@
 
 .profile-tags--intro {
   margin-top: 1.25rem;
+}
+
+.profile-lead {
+  margin: 0 0 1rem !important;
+  color: var(--global-text-color);
+  font-size: clamp(1.12rem, 2vw, 1.35rem) !important;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+}
+
+.profile-section-link {
+  margin-top: 1.25rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.profile-section-link a {
+  color: var(--portfolio-accent);
 }
 
 .profile-links {
@@ -126,8 +153,9 @@
 }
 
 .profile-photo {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
+  margin-top: 0.4rem;
   object-fit: cover;
   border: 4px solid var(--global-bg-color);
   border-radius: 50%;
@@ -136,6 +164,45 @@
 
 .profile-section {
   padding: clamp(3rem, 6vw, 5rem) 0 0;
+}
+
+.skip-link {
+  position: fixed;
+  top: -5rem;
+  left: 1rem;
+  z-index: 100;
+  padding: 0.75rem 1rem;
+  border-radius: 0.3rem;
+  color: #fff;
+  background: #0f766e;
+}
+
+.skip-link:focus {
+  top: 0.5rem;
+  color: #fff;
+}
+
+.greedy-nav .theme-toggle__button {
+  position: static;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  height: auto;
+  padding: 0;
+  border: 0;
+  color: inherit;
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+}
+
+.greedy-nav .theme-toggle__button:focus-visible,
+.portfolio-page a:focus-visible,
+.research-topic:focus-visible {
+  outline: 3px solid #0f766e;
+  outline-offset: 4px;
 }
 
 .profile-section h2 {

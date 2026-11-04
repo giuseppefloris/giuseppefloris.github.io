@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Giuseppe Floris"
 title_separator          : "-"
 name                     : &name "Giuseppe Floris"
-description              : &description "PhD student working on machine learning security, privacy, and applications of ML to cybersecurity."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Giuseppe Floris, PhD student at the University of Cagliari, researching machine learning security, adversarial robustness, and privacy in AI systems."
 url                      : "https://giuseppefloris.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,7 +23,7 @@ repository               : "giuseppefloris/giuseppefloris.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.webp"
   name             : "Giuseppe Floris"
   pronouns         : # example: "she/her"  
   bio              : "<strong>PhD student in Electronics and Computer Engineering</strong><br><span>Research focus: AI security and privacy.</span>"
@@ -103,7 +103,7 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
+google_site_verification : "CFjWDJAzxWemmqpWej1QR7Pu9ekMUfeAVl1t4lbJuN0"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -114,7 +114,7 @@ yandex_site_verification :
 
 # Analytics
 analytics:
-  provider               :  "google" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : false # Enable only after configuring a tracking ID.
   google:
     tracking_id          :
 
@@ -151,6 +151,30 @@ exclude:
   - README
   - tmp
   - vendor
+  # Keep the Academic Pages examples in source, but do not publish them.
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/cv-json.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/terms.md
+  - _pages/year-archive.html
+  - markdown_generator
+  - talkmap
+  - talkmap.ipynb
+  - files/bibtex1.bib
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
+  - files/slides1.pdf
+  - files/slides2.pdf
+  - files/slides3.pdf
+  - scripts
+  - SEO-NOTES.md
 keep_files:
   - .git
   - .svn
