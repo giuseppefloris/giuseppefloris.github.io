@@ -1,9 +1,9 @@
 ---
 layout: portfolio
 permalink: /
-title: "Giuseppe Floris | AI Security & Privacy"
+title: "Giuseppe Floris"
 description: "Giuseppe Floris, PhD student at the University of Cagliari, researching machine learning security, adversarial robustness, and privacy in AI systems."
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 author_profile: false
 redirect_from:
   - /about/
