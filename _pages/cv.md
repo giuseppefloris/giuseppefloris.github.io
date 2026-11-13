@@ -48,7 +48,7 @@ I am a member of <a href="https://www.saiferlab.ai/people/giuseppefloris">sAIfer
               <h3>Visiting PhD</h3>
               <p class="cv-entry__place">CISPA Helmholtz Center for Information Security · SprintML Lab</p>
               <p><strong>Supervisor:</strong> Prof. Franziska Boenisch.</p>
-              <p>Focus on privacy attacks and defenses in LLMs and tokenizers.</p>
+              <p>Research on privacy attacks and defenses in LLMs and their tokenizers.</p>
             </div>
           </article>
           <article class="cv-entry">
