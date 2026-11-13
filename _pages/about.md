@@ -3,7 +3,7 @@ layout: portfolio
 permalink: /
 title: "Giuseppe Floris"
 description: "Giuseppe Floris, PhD student at the University of Cagliari, researching machine learning security, adversarial robustness, and privacy in AI systems."
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-13
 author_profile: false
 redirect_from:
   - /about/
@@ -72,14 +72,14 @@ redirect_from:
     </article>
 
     <article class="work-card" data-topics="privacy-attacks differential-privacy llm-security" data-featured="true">
-      <p class="work-card__type">Current research</p>
-      <h3>Privacy in LLM pipelines</h3>
-      <p>Privacy attacks and defenses in large language models and pipeline components, including tokenizers.</p>
+      <p class="work-card__type">Publications under review</p>
+      <h3>Privacy in LLMs and tokenizers</h3>
+      <p>Focus on privacy attacks and defenses in LLMs and tokenizers.</p>
       <ul class="work-card__topics" aria-label="Topics">
         <li>Privacy attacks</li>
         <li>LLM security</li>
       </ul>
-      <span class="work-card__note">Ongoing work · not yet published</span>
+      <span class="work-card__note">Two publications under review</span>
     </article>
 
     <article class="work-card" data-topics="adversarial-robustness hyperparameter-optimization">
@@ -115,7 +115,8 @@ redirect_from:
         <span>Visiting PhD · CISPA Helmholtz Center for Information Security</span>
         <time>Nov 2025 – Apr 2026</time>
       </summary>
-      <p>SprintML Lab. Research on privacy attacks and defenses in LLMs and their pipeline components, including tokenizers.</p>
+      <p>SprintML Lab.</p>
+      <p>Focus on privacy attacks and defenses in LLMs and tokenizers.</p>
       <p><strong>Supervisor:</strong> Prof. Franziska Boenisch.</p>
     </details>
     <details class="experience-card">

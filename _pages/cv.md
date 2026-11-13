@@ -3,6 +3,7 @@ layout: archive
 title: "CV"
 description: "Giuseppe Floris's academic CV: research experience at the University of Cagliari, CISPA and Pluribus One, education, publications, and technical skills."
 permalink: /cv/
+last_modified_at: 2026-11-13
 author_profile: true
 redirect_from:
   - /resume
@@ -14,7 +15,7 @@ redirect_from:
 
 Profile
 ------
-PhD student in Electronics and Computer Engineering at the University of Cagliari. My research focuses on machine learning security and privacy, and on applications of machine learning to cybersecurity. In particular, I work on adversarial robustness and privacy attacks and defenses. I am interested in evaluating security and privacy risks in machine learning systems and developing methods to mitigate them.
+I am a member of <a href="https://www.saiferlab.ai/people/giuseppefloris">sAIferLab</a> and a PhD student in Electronics and Computer Engineering at the University of Cagliari. My research focuses on machine learning security and privacy, and on applications of machine learning to cybersecurity. In particular, I work on adversarial robustness and privacy attacks and defenses. I am interested in evaluating security and privacy risks in machine learning systems and developing methods to mitigate them.
 
 **Research areas:** Adversarial robustness · Privacy attacks and defenses · Differential privacy · ML for cybersecurity · LLM security · Hyperparameter optimization
 
@@ -47,7 +48,7 @@ PhD student in Electronics and Computer Engineering at the University of Cagliar
               <h3>Visiting PhD</h3>
               <p class="cv-entry__place">CISPA Helmholtz Center for Information Security · SprintML Lab</p>
               <p><strong>Supervisor:</strong> Prof. Franziska Boenisch.</p>
-              <p>Privacy attacks and defenses in LLMs and their pipeline components, including tokenizers.</p>
+              <p>Focus on privacy attacks and defenses in LLMs and tokenizers.</p>
             </div>
           </article>
           <article class="cv-entry">
@@ -112,6 +113,8 @@ Languages
 ------
 * **Italian:** native.
 * **English:** B2.
+
+{% include publications-under-review.html %}
 
 Publications
 ------
