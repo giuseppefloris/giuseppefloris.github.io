@@ -74,12 +74,12 @@ redirect_from:
     <article class="work-card" data-topics="privacy-attacks differential-privacy llm-security" data-featured="true">
       <p class="work-card__type">Publications under review</p>
       <h3>Privacy in LLMs and tokenizers</h3>
-      <p>Focus on privacy attacks and defenses in LLMs and tokenizers.</p>
+      <p>Privacy attacks and defenses in LLMs and their tokenizers.</p>
       <ul class="work-card__topics" aria-label="Topics">
         <li>Privacy attacks</li>
         <li>LLM security</li>
       </ul>
-      <span class="work-card__note">Two publications under review</span>
+      <span class="work-card__note">Ongoing work · publications under review</span>
     </article>
 
     <article class="work-card" data-topics="adversarial-robustness hyperparameter-optimization">
@@ -116,7 +116,7 @@ redirect_from:
         <time>Nov 2025 – Apr 2026</time>
       </summary>
       <p>SprintML Lab.</p>
-      <p>Focus on privacy attacks and defenses in LLMs and tokenizers.</p>
+      <p>Research on privacy attacks and defenses in LLMs and their tokenizers.</p>
       <p><strong>Supervisor:</strong> Prof. Franziska Boenisch.</p>
     </details>
     <details class="experience-card">
